@@ -1,3 +1,31 @@
 body{
 	background-color: orange;
 }
+
+#playground{
+	border: 5px dotted black;
+}
+
+#playground > h1{
+	color: goldenrod;
+}
+
+.child{
+	background-color: slategray;
+}
+
+li{
+	text-decoration: underline red;
+}
+
+#playground ~ span {
+	background-color: green;
+}
+
+#playground{
+	display: none;
+}
+
+h1{
+	font-family: 'Barrio', cursive;
+}
